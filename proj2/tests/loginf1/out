@@ -1,0 +1,3 @@
+       log(0) = -inf
+ cfrac_log(0) = -inf
+taylor_log(0) = -inf

@@ -1,0 +1,3 @@
+       log(inf) = inf
+ cfrac_log(inf) = inf
+taylor_log(inf) = inf

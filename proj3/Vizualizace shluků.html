@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://www.fit.vutbr.cz/study/courses/IZP/public/cluster.php -->
+<html lang="cs"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+
+<title>Vizualizace shluků</title>
+</head>
+<body>
+
+<h1>Vizualizace shluků</h1>
+<p>
+Zkopírujte výstup z vašeho projektu proj3. Řádky by měly odpovídat: <samp>cluster X: O[X,Y] O[X,Y] ...</samp>, kde C, O, X a Y jsou čísla (X,Y &#8712; [0,1000]).
+</p>
+<form action="http://www.fit.vutbr.cz/study/courses/IZP/public/cluster.php" method="post">
+Například:<br><textarea name="proj3output" rows="10" cols="120">Clusters:
+cluster 0: 40[86,663] 56[44,854] 62[85,874] 68[80,770] 75[28,603] 86[238,650]
+cluster 1: 43[747,938] 93[944,835]
+cluster 2: 47[285,973]
+cluster 3: 49[548,422] 52[741,541] 79[926,463]
+cluster 4: 57[795,59] 83[603,68] 89[749,190]
+cluster 5: 61[267,375] 66[125,211] 72[277,272] 74[222,444] 87[149,304]
+</textarea><br>
+<input type="submit" value="Update">
+</form>
+
+<br>
+
+<div>Použité barvy shluků:<br><table><tbody><tr><td bgcolor="coral">&nbsp;0&nbsp;</td><td bgcolor="deepskyblue">&nbsp;1&nbsp;</td><td bgcolor="hotpink">&nbsp;2&nbsp;</td><td bgcolor="lightgreen">&nbsp;3&nbsp;</td><td bgcolor="mediumorchid">&nbsp;4&nbsp;</td><td bgcolor="lightyellow">&nbsp;5&nbsp;</td></tr></tbody></table></div><div><svg width="500" height="500"><rect width="500" height="500" style="fill:white;stroke:black;"></rect>
+<circle r="7" cx="43" cy="331.5" stroke="black" fill="coral" title="0-40"></circle>
+<circle r="7" cx="22" cy="427" stroke="black" fill="coral" title="0-56"></circle>
+<circle r="7" cx="42.5" cy="437" stroke="black" fill="coral" title="0-62"></circle>
+<circle r="7" cx="40" cy="385" stroke="black" fill="coral" title="0-68"></circle>
+<circle r="7" cx="14" cy="301.5" stroke="black" fill="coral" title="0-75"></circle>
+<circle r="7" cx="119" cy="325" stroke="black" fill="coral" title="0-86"></circle>
+<circle r="7" cx="373.5" cy="469" stroke="black" fill="deepskyblue" title="1-43"></circle>
+<circle r="7" cx="472" cy="417.5" stroke="black" fill="deepskyblue" title="1-93"></circle>
+<circle r="7" cx="142.5" cy="486.5" stroke="black" fill="hotpink" title="2-47"></circle>
+<circle r="7" cx="274" cy="211" stroke="black" fill="lightgreen" title="3-49"></circle>
+<circle r="7" cx="370.5" cy="270.5" stroke="black" fill="lightgreen" title="3-52"></circle>
+<circle r="7" cx="463" cy="231.5" stroke="black" fill="lightgreen" title="3-79"></circle>
+<circle r="7" cx="397.5" cy="29.5" stroke="black" fill="mediumorchid" title="4-57"></circle>
+<circle r="7" cx="301.5" cy="34" stroke="black" fill="mediumorchid" title="4-83"></circle>
+<circle r="7" cx="374.5" cy="95" stroke="black" fill="mediumorchid" title="4-89"></circle>
+<circle r="7" cx="133.5" cy="187.5" stroke="black" fill="lightyellow" title="5-61"></circle>
+<circle r="7" cx="62.5" cy="105.5" stroke="black" fill="lightyellow" title="5-66"></circle>
+<circle r="7" cx="138.5" cy="136" stroke="black" fill="lightyellow" title="5-72"></circle>
+<circle r="7" cx="111" cy="222" stroke="black" fill="lightyellow" title="5-74"></circle>
+<circle r="7" cx="74.5" cy="152" stroke="black" fill="lightyellow" title="5-87"></circle>
+</svg></div>
+<p>Nefunguje stránka? Máte problém vidět barvy? Reportujte: <a href="mailto:smrcka@fit.vutbr.cz?Subject=IZP%20-%20proj3web">smrcka@fit.vutbr.cz</a>
+</p>
+
+
+</body></html>
