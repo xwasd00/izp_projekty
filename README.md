@@ -8,4 +8,4 @@
 
 3. proj3: jednoduchá shluková analýza
 
-4. proj4: dokumentace proj3
+4. proj4: dokumentace k proj3
