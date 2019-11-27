@@ -1,6 +1,11 @@
 # izp_projekty
-projekty do předmětu izp
-proj1: práce s textem
-proj2: iterační výpočty
-proj3: jednoduchá shluková analýza
-proj4: dokumentace proj3
+
+## projekty do předmětu izp
+
+1. proj1: práce s textem
+
+2. proj2: iterační výpočty
+
+3. proj3: jednoduchá shluková analýza
+
+4. proj4: dokumentace proj3
